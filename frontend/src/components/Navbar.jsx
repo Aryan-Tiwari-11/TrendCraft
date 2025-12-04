@@ -24,9 +24,10 @@ const Navbar = () => {
 
       <div className="flex items-center justify-between py-5 px-3 sm:px-8 font-medium relative">
         
-        <Link to="/">
-          <img src={assets.logo} alt="" className="w-36" />
-        </Link>
+       <Link to="/">
+  <img src={assets.logo} alt="" className="w-16 h-16 rounded-full" />
+</Link>
+
 
         {/* Nav Links */}
         <ul className="hidden sm:flex gap-8 text-sm text-gray-700 tracking-wide">
@@ -38,7 +39,7 @@ const Navbar = () => {
           {/* Admin Button */}
           {!token && (
             <NavLink 
-              to="http://localhost:4000"
+              to="https://trendcraft-admin.vercel.app/"
               target="_blank"
             >
               <button className="px-5 h-10 bg-[#4ECDC4] text-white rounded-full font-semibold shadow-md hover:bg-[#39b9aa] transition-all">

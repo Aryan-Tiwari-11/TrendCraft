@@ -17,7 +17,7 @@ const Footer = () => {
           <img 
             src={assets.logo} 
             alt="" 
-            className="mb-6 w-40 opacity-95 drop-shadow-md"
+            className="w-16 h-16 rounded-full"
           />
 
           <p className="w-full md:w-3/4 text-gray-600 leading-relaxed text-[15px]">
@@ -52,7 +52,7 @@ const Footer = () => {
               +91 83198 30017
             </li>
             <li className="cursor-pointer hover:text-[#FF6B6B] transition">
-              support@fashionhub.com
+              aryantiwari52576@gmail.com
             </li>
             <li className="cursor-pointer hover:text-[#FF6B6B] transition">
               Indore, Madhya Pradesh
